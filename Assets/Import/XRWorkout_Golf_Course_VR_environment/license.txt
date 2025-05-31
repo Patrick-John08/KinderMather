@@ -1,0 +1,11 @@
+Model Information:
+* title:	XRWorkout Golf Course VR environment
+* source:	https://sketchfab.com/3d-models/xrworkout-golf-course-vr-environment-6b868ee2e06f4606ae7ac40dd726d858
+* author:	xrworkoutlabs (https://sketchfab.com/xrworkoutlabs)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "XRWorkout Golf Course VR environment" (https://sketchfab.com/3d-models/xrworkout-golf-course-vr-environment-6b868ee2e06f4606ae7ac40dd726d858) by xrworkoutlabs (https://sketchfab.com/xrworkoutlabs) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
