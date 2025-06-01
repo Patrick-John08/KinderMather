@@ -1,0 +1,11 @@
+Model Information:
+* title:	Papelera UZ
+* source:	https://sketchfab.com/3d-models/papelera-uz-bd2ce8ab1000411dbb45bf3ce9b12961
+* author:	842382 (https://sketchfab.com/842382)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Papelera UZ" (https://sketchfab.com/3d-models/papelera-uz-bd2ce8ab1000411dbb45bf3ce9b12961) by 842382 (https://sketchfab.com/842382) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

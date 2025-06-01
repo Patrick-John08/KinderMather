@@ -1,0 +1,11 @@
+Model Information:
+* title:	Abc Cards
+* source:	https://sketchfab.com/3d-models/abc-cards-26d5761ce01f40ddb5c43a07359a99c4
+* author:	letter-lovers123 (https://sketchfab.com/letter-lovers123)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Abc Cards" (https://sketchfab.com/3d-models/abc-cards-26d5761ce01f40ddb5c43a07359a99c4) by letter-lovers123 (https://sketchfab.com/letter-lovers123) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
