@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fluorescent Lamp (люминесцентная лампа)
+* source:	https://sketchfab.com/3d-models/fluorescent-lamp-74eedde45d8a4b569518750607e881d5
+* author:	VVMGames (https://sketchfab.com/vvmgames)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fluorescent Lamp (люминесцентная лампа)" (https://sketchfab.com/3d-models/fluorescent-lamp-74eedde45d8a4b569518750607e881d5) by VVMGames (https://sketchfab.com/vvmgames) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

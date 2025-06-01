@@ -1,0 +1,11 @@
+Model Information:
+* title:	Glass Wooden Door – Game-ready PBR 3D model
+* source:	https://sketchfab.com/3d-models/glass-wooden-door-game-ready-pbr-3d-model-6b657c0ece564ac2afadeb91f906a87c
+* author:	CHEN (https://sketchfab.com/aa6112532527)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Glass Wooden Door – Game-ready PBR 3D model" (https://sketchfab.com/3d-models/glass-wooden-door-game-ready-pbr-3d-model-6b657c0ece564ac2afadeb91f906a87c) by CHEN (https://sketchfab.com/aa6112532527) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
