@@ -18,6 +18,16 @@ public class VRInputDetector : MonoBehaviour
     private bool leftGripUsed = false;
     private bool rightGripUsed = false;
 
+    //
+    public GameObject WalkX, WalkY;
+    public GameObject MenuX, MenuY;
+    public GameObject RTriggerX, RTriggerY;
+    public GameObject LTriggerX, LTriggerY;
+    public GameObject RGrabX, RGrabY;
+    public GameObject LGrabX, LGrabY;
+    public GameObject TurnX, TurnY;
+    public GameObject HideX, HideY;
+
     void Start()
     {
         TryInitializeControllers();
@@ -52,11 +62,15 @@ public class VRInputDetector : MonoBehaviour
         {
             leftJoystickUsed = true;
             Debug.Log("Left Joystick used");
+            WalkX.SetActive(false);
+            WalkY.SetActive(true);
         }
         if (!rightJoystickUsed && rightController.TryGetFeatureValue(CommonUsages.primary2DAxis, out rightStick) && rightStick.magnitude > 0.1f)
         {
             rightJoystickUsed = true;
             Debug.Log("Right Joystick used");
+            TurnX.SetActive(false);
+            TurnY.SetActive(true);
         }
 
         // Buttons A, B (Right controller), X, Y (Left controller)
@@ -65,34 +79,31 @@ public class VRInputDetector : MonoBehaviour
         {
             buttonAUsed = true;
             Debug.Log("Button A pressed");
-        }
-        if (!buttonBUsed && rightController.TryGetFeatureValue(CommonUsages.secondaryButton, out buttonValue) && buttonValue)
-        {
-            buttonBUsed = true;
-            Debug.Log("Button B pressed");
+            HideX.SetActive(false);
+            HideY.SetActive(true);
         }
         if (!buttonXUsed && leftController.TryGetFeatureValue(CommonUsages.primaryButton, out buttonValue) && buttonValue)
         {
             buttonXUsed = true;
             Debug.Log("Button X pressed");
+            MenuX.SetActive(false);
+            MenuY.SetActive(true);
         }
-        if (!buttonYUsed && leftController.TryGetFeatureValue(CommonUsages.secondaryButton, out buttonValue) && buttonValue)
-        {
-            buttonYUsed = true;
-            Debug.Log("Button Y pressed");
-        }
-
         // Triggers
         float triggerValue;
         if (!leftTriggerUsed && leftController.TryGetFeatureValue(CommonUsages.trigger, out triggerValue) && triggerValue > 0.1f)
         {
             leftTriggerUsed = true;
             Debug.Log("Left Trigger pressed");
+            LTriggerX.SetActive(false);
+            LTriggerY.SetActive(true);
         }
         if (!rightTriggerUsed && rightController.TryGetFeatureValue(CommonUsages.trigger, out triggerValue) && triggerValue > 0.1f)
         {
             rightTriggerUsed = true;
             Debug.Log("Right Trigger pressed");
+            RTriggerX.SetActive(false);
+            RTriggerY.SetActive(true);
         }
 
         // Grabs (Grip buttons)
@@ -101,11 +112,15 @@ public class VRInputDetector : MonoBehaviour
         {
             leftGripUsed = true;
             Debug.Log("Left Grip used");
+            LGrabX.SetActive(false);
+            LGrabY.SetActive(true);
         }
         if (!rightGripUsed && rightController.TryGetFeatureValue(CommonUsages.grip, out gripValue) && gripValue > 0.1f)
         {
             rightGripUsed = true;
             Debug.Log("Right Grip used");
+            RGrabX.SetActive(false);
+            RGrabY.SetActive(true);
         }
     }
 }
