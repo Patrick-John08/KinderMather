@@ -1,0 +1,11 @@
+Model Information:
+* title:	Clip Board
+* source:	https://sketchfab.com/3d-models/clip-board-a35e2b8adfed472abb572dbac3cff96f
+* author:	mengtai (https://sketchfab.com/mengtaizhang)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Clip Board" (https://sketchfab.com/3d-models/clip-board-a35e2b8adfed472abb572dbac3cff96f) by mengtai (https://sketchfab.com/mengtaizhang) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
