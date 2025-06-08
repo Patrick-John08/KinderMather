@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.XR;
 using System.Collections.Generic;
 
@@ -17,8 +17,8 @@ public class VRInputDetector : MonoBehaviour
     private bool rightTriggerUsed = false;
     private bool leftGripUsed = false;
     private bool rightGripUsed = false;
+    private bool allInputsUsed = false; // NEW
 
-    //
     public GameObject WalkX, WalkY;
     public GameObject MenuX, MenuY;
     public GameObject RTriggerX, RTriggerY;
@@ -27,6 +27,8 @@ public class VRInputDetector : MonoBehaviour
     public GameObject LGrabX, LGrabY;
     public GameObject TurnX, TurnY;
     public GameObject HideX, HideY;
+
+    public AudioSource done;
 
     void Start()
     {
@@ -62,6 +64,7 @@ public class VRInputDetector : MonoBehaviour
         {
             leftJoystickUsed = true;
             Debug.Log("Left Joystick used");
+            done.Play();
             WalkX.SetActive(false);
             WalkY.SetActive(true);
         }
@@ -69,6 +72,7 @@ public class VRInputDetector : MonoBehaviour
         {
             rightJoystickUsed = true;
             Debug.Log("Right Joystick used");
+            done.Play();
             TurnX.SetActive(false);
             TurnY.SetActive(true);
         }
@@ -79,6 +83,7 @@ public class VRInputDetector : MonoBehaviour
         {
             buttonAUsed = true;
             Debug.Log("Button A pressed");
+            done.Play();
             HideX.SetActive(false);
             HideY.SetActive(true);
         }
@@ -86,15 +91,18 @@ public class VRInputDetector : MonoBehaviour
         {
             buttonXUsed = true;
             Debug.Log("Button X pressed");
+            done.Play();
             MenuX.SetActive(false);
             MenuY.SetActive(true);
         }
+
         // Triggers
         float triggerValue;
         if (!leftTriggerUsed && leftController.TryGetFeatureValue(CommonUsages.trigger, out triggerValue) && triggerValue > 0.1f)
         {
             leftTriggerUsed = true;
             Debug.Log("Left Trigger pressed");
+            done.Play();
             LTriggerX.SetActive(false);
             LTriggerY.SetActive(true);
         }
@@ -102,6 +110,7 @@ public class VRInputDetector : MonoBehaviour
         {
             rightTriggerUsed = true;
             Debug.Log("Right Trigger pressed");
+            done.Play();
             RTriggerX.SetActive(false);
             RTriggerY.SetActive(true);
         }
@@ -112,6 +121,7 @@ public class VRInputDetector : MonoBehaviour
         {
             leftGripUsed = true;
             Debug.Log("Left Grip used");
+            done.Play();
             LGrabX.SetActive(false);
             LGrabY.SetActive(true);
         }
@@ -119,8 +129,28 @@ public class VRInputDetector : MonoBehaviour
         {
             rightGripUsed = true;
             Debug.Log("Right Grip used");
+            done.Play();
             RGrabX.SetActive(false);
             RGrabY.SetActive(true);
+        }
+
+        CheckAllInputsUsed(); // ✅ Call this at the end
+    }
+
+    void CheckAllInputsUsed()
+    {
+        if (!allInputsUsed &&
+            leftJoystickUsed &&
+            rightJoystickUsed &&
+            buttonAUsed &&
+            buttonXUsed && // No B/Y buttons in this version — adjust if needed
+            leftTriggerUsed &&
+            rightTriggerUsed &&
+            leftGripUsed &&
+            rightGripUsed)
+        {
+            allInputsUsed = true;
+            Debug.Log("✅ All VR inputs have been used!");
         }
     }
 }
