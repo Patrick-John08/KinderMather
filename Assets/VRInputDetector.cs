@@ -29,6 +29,7 @@ public class VRInputDetector : MonoBehaviour
     public GameObject HideX, HideY;
 
     public AudioSource done;
+    public TutorialCanvasManager canvas;
 
     void Start()
     {
@@ -150,6 +151,7 @@ public class VRInputDetector : MonoBehaviour
             rightGripUsed)
         {
             allInputsUsed = true;
+            canvas.GrabShow();
             Debug.Log("✅ All VR inputs have been used!");
         }
     }
