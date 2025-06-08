@@ -6,7 +6,7 @@ public class TutorialCanvasManager : MonoBehaviour
 {
     public GameObject WelcomeMessage, Controllers, Grab,MainCanvas, Done;
     public GameObject controllersChecklist, ControllerList, GrabList;
-
+    public AudioSource welcomeAudio, controlAudio, grabAudio, doneAudio;
     void Start()
     {
         WelcomeShow();
@@ -21,12 +21,15 @@ public class TutorialCanvasManager : MonoBehaviour
     public void WelcomeShow()
     {
         ShowDialogue(WelcomeMessage);
+        welcomeAudio.Play();
         MainCanvas.SetActive(true);
     }
 
     public void ControllersShow()
     {
         ShowDialogue(Controllers);
+        welcomeAudio.Stop();
+        controlAudio.Play();
         MainCanvas.SetActive(true);
         StartCoroutine(ActivateControllersAfterDelay(1f));
     }
@@ -41,6 +44,8 @@ public class TutorialCanvasManager : MonoBehaviour
     public void GrabShow()
     {
         ShowDialogue(Grab);
+        grabAudio.Play();
+        controlAudio.Stop();
         MainCanvas.SetActive(true);
     }
 
@@ -54,6 +59,8 @@ public class TutorialCanvasManager : MonoBehaviour
     public void DoneShow()
     {
         ShowDialogue(Done);
+        grabAudio.Stop();
+        doneAudio.Play();
         MainCanvas.SetActive(true);
         ControllerList.SetActive(false);
     }
