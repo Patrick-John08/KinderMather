@@ -13,6 +13,7 @@ TagManager:
   - SnapZones
   - NumberBlock
   - SceneLight
+  - fruit
   layers:
   - Default
   - TransparentFX
