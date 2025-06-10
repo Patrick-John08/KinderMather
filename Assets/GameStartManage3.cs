@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class GameStartManager : MonoBehaviour
+public class GameStartManager3 : MonoBehaviour
 {
     public GameObject gameStartCanvas;
     public GameObject leftHand;
@@ -11,8 +11,8 @@ public class GameStartManager : MonoBehaviour
 
     private XRRayInteractor leftHandRay;
     private XRRayInteractor rightHandRay;
-    public SnapZoneManager snapZoneManager;
-    //public SnapZoneManagerScene3 snapZoneManagerScene3;
+    //public SnapZoneManager snapZoneManager;
+    public SnapZoneManagerScene3 snapZoneManagerScene3;
 
     void Start()
     {
@@ -37,9 +37,9 @@ public class GameStartManager : MonoBehaviour
             gameTimer.StartTimer();
         }
 
-        if (snapZoneManager != null)
+        if (snapZoneManagerScene3 != null)
         {
-            snapZoneManager.InitializeSnapZones();
+            snapZoneManagerScene3.InitializeSnapZones();
         }
 
     }

@@ -10501,7 +10501,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 706874948}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameStartManager, Assembly-CSharp
         m_MethodName: BackToMainMenu
         m_Mode: 1
@@ -10933,7 +10933,7 @@ GameObject:
   - component: {fileID: 706874951}
   - component: {fileID: 706874949}
   - component: {fileID: 706874950}
-  - component: {fileID: 706874948}
+  - component: {fileID: 706874954}
   m_Layer: 5
   m_Name: Game Start Canvas
   m_TagString: Untagged
@@ -10941,25 +10941,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &706874948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706874947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 340919ac34928a2489038b60a3090922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameStartCanvas: {fileID: 706874947}
-  leftHand: {fileID: 1825503843}
-  rightHand: {fileID: 1088815144}
-  playerMovement: {fileID: 1335508395}
-  gameTimer: {fileID: 719514784}
-  snapZoneManager: {fileID: 0}
-  snapZoneManagerScene3: {fileID: 21723749}
 --- !u!114 &706874949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11060,6 +11041,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1.59}
   m_SizeDelta: {x: 4, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &706874954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706874947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49059ac262c829c49986d62b4b3e3566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStartCanvas: {fileID: 706874947}
+  leftHand: {fileID: 1825503843}
+  rightHand: {fileID: 1088815144}
+  playerMovement: {fileID: 1335508395}
+  gameTimer: {fileID: 719514784}
+  snapZoneManagerScene3: {fileID: 21723749}
 --- !u!1 &708245268
 GameObject:
   m_ObjectHideFlags: 0
@@ -15378,8 +15377,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 706874948}
-        m_TargetAssemblyTypeName: GameStartManager, Assembly-CSharp
+      - m_Target: {fileID: 706874954}
+        m_TargetAssemblyTypeName: GameStartManager3, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -20674,6 +20673,26 @@ PrefabInstance:
     - target: {fileID: 9014170783809206328, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014170783809206330, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014170783809206330, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014170783809206330, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9014170783809206330, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9014170783809206330, guid: 895f6f3c2d334633b5800312285058d2,

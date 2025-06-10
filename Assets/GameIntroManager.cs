@@ -18,8 +18,7 @@ public class GameIntroManager : MonoBehaviour
 
     void Start()
     {
-        gameStartButton.interactable = false;
-        goBackButton.interactable = false;
+        
 
         if (audioSource != null)
         {
