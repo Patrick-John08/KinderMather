@@ -1604,6 +1604,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 58171135}
+    - targetCorrespondingSourceObject: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 58171136}
     - targetCorrespondingSourceObject: {fileID: 9014170783809206332, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       insertIndex: -1
@@ -1694,6 +1698,18 @@ MonoBehaviour:
     spot, it will stay there. Follow the guide and place each number in the right
     order. Ready to count and play? Let's do it!"
   typingSpeed: 0.04
+--- !u!114 &58171136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58171134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48d575c7242ba8448b1fa9a12080f1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &58617271
 GameObject:
   m_ObjectHideFlags: 0
@@ -14963,9 +14979,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 454665877}
-        m_TargetAssemblyTypeName: GameStartManager, Assembly-CSharp
-        m_MethodName: BackToMainMenu
+      - m_Target: {fileID: 58171136}
+        m_TargetAssemblyTypeName: SceneNavigator, Assembly-CSharp
+        m_MethodName: MoveToScene1_Tutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20916,7 +20932,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GO BACK TO MENU
+  m_text: TUTORIAL
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
