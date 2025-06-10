@@ -2789,6 +2789,7 @@ GameObject:
   - component: {fileID: 118636121}
   - component: {fileID: 118636123}
   - component: {fileID: 118636122}
+  - component: {fileID: 118636124}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -2861,6 +2862,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118636120}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &118636124
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118636120}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.2637711, y: 0.00000023817303, z: -1.5330985}
 --- !u!1 &128019127
 GameObject:
   m_ObjectHideFlags: 0
@@ -4185,6 +4207,7 @@ GameObject:
   - component: {fileID: 164340995}
   - component: {fileID: 164340997}
   - component: {fileID: 164340996}
+  - component: {fileID: 164340998}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -4257,6 +4280,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164340994}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &164340998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164340994}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.263773, y: 0.00000023817303, z: -1.5330985}
 --- !u!1 &170954877
 GameObject:
   m_ObjectHideFlags: 0
@@ -12102,6 +12146,7 @@ GameObject:
   - component: {fileID: 613878505}
   - component: {fileID: 613878507}
   - component: {fileID: 613878506}
+  - component: {fileID: 613878508}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -12174,6 +12219,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613878504}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &613878508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613878504}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377442, y: 0.0000011918473, z: -1.5330985}
 --- !u!1 &615385341
 GameObject:
   m_ObjectHideFlags: 0
@@ -23583,6 +23649,7 @@ GameObject:
   - component: {fileID: 1000150342}
   - component: {fileID: 1000150344}
   - component: {fileID: 1000150343}
+  - component: {fileID: 1000150345}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -23655,6 +23722,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000150341}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1000150345
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000150341}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377156, y: -0.0000007155013, z: -1.5330985}
 --- !u!1 &1004890006
 GameObject:
   m_ObjectHideFlags: 0
@@ -23666,6 +23754,7 @@ GameObject:
   - component: {fileID: 1004890007}
   - component: {fileID: 1004890009}
   - component: {fileID: 1004890008}
+  - component: {fileID: 1004890010}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -23738,6 +23827,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004890006}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1004890010
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004890006}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377156, y: 0.0000040528703, z: -1.5330985}
 --- !u!1 &1006792444
 GameObject:
   m_ObjectHideFlags: 0
@@ -24081,6 +24191,7 @@ GameObject:
   - component: {fileID: 1031199284}
   - component: {fileID: 1031199286}
   - component: {fileID: 1031199285}
+  - component: {fileID: 1031199287}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -24153,6 +24264,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031199283}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1031199287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031199283}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377347, y: -0.0000007155013, z: -1.5330985}
 --- !u!1 &1047019514
 GameObject:
   m_ObjectHideFlags: 0
@@ -24694,6 +24826,7 @@ GameObject:
   - component: {fileID: 1097767938}
   - component: {fileID: 1097767940}
   - component: {fileID: 1097767939}
+  - component: {fileID: 1097767941}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -24766,6 +24899,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097767937}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1097767941
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097767937}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377252, y: 0.00000023817303, z: -1.5330985}
 --- !u!1 &1103945732
 GameObject:
   m_ObjectHideFlags: 0
@@ -27698,6 +27852,7 @@ GameObject:
   - component: {fileID: 1266894820}
   - component: {fileID: 1266894822}
   - component: {fileID: 1266894821}
+  - component: {fileID: 1266894823}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -27770,6 +27925,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266894819}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1266894823
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266894819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377442, y: 0.00000023817303, z: -1.5330985}
 --- !u!1 &1270557320
 GameObject:
   m_ObjectHideFlags: 0
@@ -28071,6 +28247,7 @@ GameObject:
   - component: {fileID: 1292008199}
   - component: {fileID: 1292008201}
   - component: {fileID: 1292008200}
+  - component: {fileID: 1292008202}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -28143,6 +28320,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292008198}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1292008202
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292008198}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377347, y: 0.0000021455216, z: -1.5330985}
 --- !u!1 &1294883320
 GameObject:
   m_ObjectHideFlags: 0
@@ -28565,6 +28763,7 @@ GameObject:
   - component: {fileID: 1328907167}
   - component: {fileID: 1328907169}
   - component: {fileID: 1328907168}
+  - component: {fileID: 1328907170}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -28637,6 +28836,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328907166}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1328907170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328907166}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.2637711, y: 0.0000021455216, z: -1.5330985}
 --- !u!1 &1329957295
 GameObject:
   m_ObjectHideFlags: 0
@@ -28993,6 +29213,7 @@ GameObject:
   - component: {fileID: 1372181152}
   - component: {fileID: 1372181154}
   - component: {fileID: 1372181153}
+  - component: {fileID: 1372181155}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -29065,6 +29286,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372181151}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1372181155
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372181151}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.263773, y: 0.00000023817303, z: -1.5330985}
 --- !u!1 &1372796349
 GameObject:
   m_ObjectHideFlags: 0
@@ -29326,6 +29568,7 @@ GameObject:
   - component: {fileID: 1397225186}
   - component: {fileID: 1397225188}
   - component: {fileID: 1397225187}
+  - component: {fileID: 1397225189}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -29398,6 +29641,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397225185}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1397225189
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397225185}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377538, y: 0.000005960219, z: -1.5330983}
 --- !u!1 &1398386756
 GameObject:
   m_ObjectHideFlags: 0
@@ -34797,6 +35061,7 @@ GameObject:
   - component: {fileID: 1671539802}
   - component: {fileID: 1671539804}
   - component: {fileID: 1671539803}
+  - component: {fileID: 1671539805}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -34869,6 +35134,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671539801}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1671539805
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671539801}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377538, y: 0.00000023817303, z: -1.5330985}
 --- !u!1 &1681347560
 GameObject:
   m_ObjectHideFlags: 0
@@ -37739,6 +38025,7 @@ GameObject:
   - component: {fileID: 1809008010}
   - component: {fileID: 1809008012}
   - component: {fileID: 1809008011}
+  - component: {fileID: 1809008013}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -37811,6 +38098,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809008009}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1809008013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809008009}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377538, y: 0.00000023817303, z: -1.5330985}
 --- !u!1 &1814956667
 GameObject:
   m_ObjectHideFlags: 0
@@ -39348,6 +39656,7 @@ GameObject:
   - component: {fileID: 1908893131}
   - component: {fileID: 1908893133}
   - component: {fileID: 1908893132}
+  - component: {fileID: 1908893134}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -39420,6 +39729,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908893130}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &1908893134
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908893130}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377252, y: 0.0000040528703, z: -1.5330985}
 --- !u!1 &1910319001
 GameObject:
   m_ObjectHideFlags: 0
@@ -42152,6 +42482,7 @@ GameObject:
   - component: {fileID: 2073027606}
   - component: {fileID: 2073027608}
   - component: {fileID: 2073027607}
+  - component: {fileID: 2073027609}
   m_Layer: 0
   m_Name: bench_Material.001_0
   m_TagString: Untagged
@@ -42224,6 +42555,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073027605}
   m_Mesh: {fileID: 4300000, guid: 23bfe4d526028764ea82d0325f69995b, type: 2}
+--- !u!65 &2073027609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073027605}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.778622, y: 5.5238705, z: 3.1761658}
+  m_Center: {x: -0.26377538, y: -0.0000007155013, z: -1.5330985}
 --- !u!1 &2082108287
 GameObject:
   m_ObjectHideFlags: 0
