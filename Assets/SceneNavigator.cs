@@ -19,14 +19,14 @@ public class SceneNavigator : MonoBehaviour
         StartCoroutine(LoadScene("Tutorial"));
 
     }
-    public void MoveToSuperFicial()
+    public void MoveToScene1_Tutorial()
     {
-        StartCoroutine(LoadScene("Superficial_Wounds"));
+        StartCoroutine(LoadScene("Scene1_Tutorial"));
     }
 
-    public void MoveToConcussion()
+    public void MoveToScene1_1()
     {
-        StartCoroutine(LoadScene("Concussion"));
+        StartCoroutine(LoadScene("Scene1_1"));
     }
 
 

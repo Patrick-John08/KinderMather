@@ -3,6 +3,7 @@ using UnityEngine;
 public class Number12345Count : MonoBehaviour
 {
     private bool[] Zero = new bool[5];
+    public TutorialScene1Manager canvas;
     // Call this method with the index (0, 1, or 2) to set it to true
     public void SetZeroTrue(int index)
     {
@@ -13,7 +14,7 @@ public class Number12345Count : MonoBehaviour
             if (AllTrue())
             {
                 Debug.Log("DONE NA PO");
-
+                canvas.ShowDoneCanvas();
             }
         }
         else
