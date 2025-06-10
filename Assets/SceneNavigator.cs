@@ -24,6 +24,16 @@ public class SceneNavigator : MonoBehaviour
         StartCoroutine(LoadScene("Scene1_Tutorial"));
     }
 
+    public void MoveToScene2_1()
+    {
+        StartCoroutine(LoadScene("Scene2_1"));
+    }
+
+    public void MoveToScene2_Tutorial()
+    {
+        StartCoroutine(LoadScene("Scene2_Tutorial"));
+    }
+
     public void MoveToScene1_1()
     {
         StartCoroutine(LoadScene("Scene1_1"));

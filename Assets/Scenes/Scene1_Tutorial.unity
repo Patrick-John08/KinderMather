@@ -31693,7 +31693,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 58171138}
         m_TargetAssemblyTypeName: SceneNavigator, Assembly-CSharp
         m_MethodName: MoveToMain_Menu
         m_Mode: 1
@@ -36998,9 +36998,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 58171138}
         m_TargetAssemblyTypeName: SceneNavigator, Assembly-CSharp
-        m_MethodName: MoveToTutorial
+        m_MethodName: MoveToScene1_Tutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
