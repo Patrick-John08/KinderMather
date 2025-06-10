@@ -5134,6 +5134,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1825503844}
     m_Modifications:
+    - target: {fileID: 109434732392105323, guid: 65847589f926b734d9eaed6e25f0046b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e9e4b4c73cd80674a823fde8044353fe, type: 2}
     - target: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b,
         type: 3}
       propertyPath: m_Name
@@ -9905,6 +9910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right Hand Model
       objectReference: {fileID: 0}
+    - target: {fileID: 5686134208196863108, guid: 1fd3a7c43c8190f4d8c167ebde694364,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e9e4b4c73cd80674a823fde8044353fe, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11151,7 +11161,6 @@ MonoBehaviour:
   playerMovement: {fileID: 1335508395}
   gameTimer: {fileID: 719514784}
   snapZoneManager: {fileID: 0}
-  snapZoneManagerScene3: {fileID: 21723749}
 --- !u!114 &706874949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11852,7 +11861,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738276069}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
   m_Name: 
@@ -20963,7 +20972,7 @@ PrefabInstance:
     - target: {fileID: 6321641679068453239, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6321641679068453239, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}

@@ -3123,6 +3123,7 @@ GameObject:
   - component: {fileID: 141284745}
   - component: {fileID: 141284744}
   - component: {fileID: 141284743}
+  - component: {fileID: 141284747}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3357,6 +3358,50 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &141284747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141284741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 119665651}
+  m_TurnAmount: 45
+  m_DebounceTime: 0.5
+  m_EnableTurnLeftRight: 1
+  m_EnableTurnAround: 1
+  m_DelayTime: 0
+  m_LeftHandSnapTurnAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Hand Snap Turn
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: a1d07c24-ca50-422a-a23f-685d9fabf63b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -7374733323251553461, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  m_RightHandSnapTurnAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Hand Snap Turn
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: a7b54797-6974-4f75-81d0-42b9c15ef1e0
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!1 &142032563
 GameObject:
   m_ObjectHideFlags: 0
@@ -5594,6 +5639,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5686134208196863108, guid: 1fd3a7c43c8190f4d8c167ebde694364,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e9e4b4c73cd80674a823fde8044353fe, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9740,6 +9790,7 @@ MonoBehaviour:
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
   m_ConeCastAngle: 6
+  m_LiveConeCastDebugVisuals: 0
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -14655,7 +14706,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 1ff45a984760b584c9911bc9d1566b4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14840,6 +14891,7 @@ MonoBehaviour:
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
   m_ConeCastAngle: 6
+  m_LiveConeCastDebugVisuals: 0
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -15523,6 +15575,7 @@ MonoBehaviour:
   m_RepeatRate: 0.1
   m_TrackedDeviceDragThresholdMultiplier: 2
   m_TrackedScrollDeltaMultiplier: 5
+  m_BypassUIToolkitEvents: 0
   m_ActiveInputMode: 0
   m_MaxTrackedDeviceRaycastDistance: 1000
   m_EnableXRInput: 1
@@ -25177,6 +25230,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1783954031}
     m_Modifications:
+    - target: {fileID: 109434732392105323, guid: 65847589f926b734d9eaed6e25f0046b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e9e4b4c73cd80674a823fde8044353fe, type: 2}
     - target: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b,
         type: 3}
       propertyPath: m_Name
@@ -28367,7 +28425,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 1ff45a984760b584c9911bc9d1566b4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28552,6 +28610,7 @@ MonoBehaviour:
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
   m_ConeCastAngle: 6
+  m_LiveConeCastDebugVisuals: 0
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -29142,6 +29201,7 @@ MonoBehaviour:
   m_HitDetectionType: 0
   m_SphereCastRadius: 0
   m_ConeCastAngle: 6
+  m_LiveConeCastDebugVisuals: 0
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 256
@@ -34331,6 +34391,7 @@ MonoBehaviour:
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
   m_ConeCastAngle: 6
+  m_LiveConeCastDebugVisuals: 0
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -35824,6 +35885,7 @@ MonoBehaviour:
   m_HitDetectionType: 0
   m_SphereCastRadius: 0
   m_ConeCastAngle: 6
+  m_LiveConeCastDebugVisuals: 0
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 256
