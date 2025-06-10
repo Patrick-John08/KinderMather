@@ -1290,8 +1290,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29354814}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.19}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.8096}
+  m_LocalScale: {x: 0.6304123, y: 0.6304123, z: 0.6304123}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 589001654}
@@ -1302,11 +1302,11 @@ RectTransform:
   - {fileID: 1364868213}
   - {fileID: 1186614919}
   - {fileID: 85534368}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1335508396}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.311}
+  m_AnchoredPosition: {x: 0, y: 0.00071004033}
   m_SizeDelta: {x: 4, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &30334231
@@ -11168,19 +11168,19 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706874947}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.96}
-  m_LocalScale: {x: 0.54922, y: 0.54922, z: 0.54922}
+  m_LocalPosition: {x: 0, y: 0, z: 3.7979999}
+  m_LocalScale: {x: 0.29946628, y: 0.29946628, z: 0.29946628}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 931979656}
   - {fileID: 1795260130}
   - {fileID: 1028450057}
   - {fileID: 663714774}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1335508396}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.59}
+  m_AnchoredPosition: {x: 0, y: 0.00071004033}
   m_SizeDelta: {x: 4, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &706874954
@@ -20959,6 +20959,14 @@ PrefabInstance:
         type: 3}
       insertIndex: 1
       addedObject: {fileID: 512304956}
+    - targetCorrespondingSourceObject: {fileID: 9014170783809206335, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 706874953}
+    - targetCorrespondingSourceObject: {fileID: 9014170783809206335, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 29354819}
     - targetCorrespondingSourceObject: {fileID: 9014170785475729501, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       insertIndex: -1
@@ -35112,9 +35120,7 @@ SceneRoots:
   - {fileID: 239522245}
   - {fileID: 808321944}
   - {fileID: 1335508393}
-  - {fileID: 706874953}
   - {fileID: 951261020}
-  - {fileID: 29354819}
   - {fileID: 719514785}
   - {fileID: 1757940973}
   - {fileID: 1291587125}
