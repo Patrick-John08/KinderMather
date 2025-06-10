@@ -9,6 +9,7 @@ public class FruitCounterTutorial : MonoBehaviour
     public TextMeshPro counterText; // This is for TextMeshPro 3D (not UI)
     public GameObject fruit1, fruit2;
     public GameObject guide2, seven, guide1, finalguide;
+    public TutorialScene2Manager canvas;
 
     void Start()
     {
@@ -37,6 +38,7 @@ public class FruitCounterTutorial : MonoBehaviour
                 fruit2.SetActive(true);
                 guide2.SetActive(true);
                 guide1.SetActive(false);
+                canvas.ShowSecondDigitCanvas();
             }
             else if(counter == 7)
             {
@@ -44,6 +46,7 @@ public class FruitCounterTutorial : MonoBehaviour
                 guide2.SetActive(false);
                 finalguide.SetActive(true);
                 Debug.Log("Congrats");
+                canvas.ShowDoneCanvas();
             }
         }
     }

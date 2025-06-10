@@ -7,6 +7,7 @@ public class TutorialCanvasManager : MonoBehaviour
     public GameObject WelcomeMessage, Controllers, Grab,MainCanvas, Done;
     public GameObject controllersChecklist, ControllerList, GrabList;
     public AudioSource welcomeAudio, controlAudio, grabAudio, doneAudio;
+
     void Start()
     {
         WelcomeShow();
