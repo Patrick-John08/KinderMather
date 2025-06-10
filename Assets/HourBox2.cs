@@ -6,7 +6,7 @@ public class HourBox2 : MonoBehaviour
     public HourCounter count;
     public int setCount;
     private bool hasCounted = false;
-
+    public TutorialScene3Manager canvas;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,6 +23,7 @@ public class HourBox2 : MonoBehaviour
             HourBlue.SetActive(false);
             blue1.SetActive(true);
             Debug.Log("done");
+            canvas.ShowMinuteCanvas();
         }
     }
 }
