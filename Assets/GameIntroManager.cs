@@ -18,7 +18,7 @@ public class GameIntroManager : MonoBehaviour
 
     void Start()
     {
-        
+        EnableButtons();
 
         if (audioSource != null)
         {

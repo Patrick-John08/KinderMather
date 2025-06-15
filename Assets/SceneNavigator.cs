@@ -48,7 +48,12 @@ public class SceneNavigator : MonoBehaviour
     {
         StartCoroutine(LoadScene("Scene3_1"));
     }
+    
 
+    public void MoveToCongratulatory()
+    {
+        StartCoroutine(LoadScene("Congratulatory"));
+    }
 
     public void ExitGame()
     {

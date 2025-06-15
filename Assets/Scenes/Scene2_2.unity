@@ -1288,8 +1288,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1788554463}
-        m_TargetAssemblyTypeName: GameStartManager, Assembly-CSharp
+      - m_Target: {fileID: 1788554469}
+        m_TargetAssemblyTypeName: GameStartManager2, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -10775,6 +10775,18 @@ MonoBehaviour:
     answer to see if you got it right. It\u2019s a fun and interactive way to learn
     math, so enjoy playing and good luck!"
   typingSpeed: 0.04
+--- !u!114 &624581610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624581608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48d575c7242ba8448b1fa9a12080f1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &634386678
 GameObject:
   m_ObjectHideFlags: 0
@@ -16416,6 +16428,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 624581609}
+    - targetCorrespondingSourceObject: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 624581610}
     - targetCorrespondingSourceObject: {fileID: 9014170783809206332, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       insertIndex: -1
@@ -22478,9 +22494,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1788554463}
-        m_TargetAssemblyTypeName: GameStartManager, Assembly-CSharp
-        m_MethodName: BackToMainMenu
+      - m_Target: {fileID: 624581610}
+        m_TargetAssemblyTypeName: SceneNavigator, Assembly-CSharp
+        m_MethodName: MoveToMain_Menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -28152,6 +28168,7 @@ GameObject:
   - component: {fileID: 1788554465}
   - component: {fileID: 1788554464}
   - component: {fileID: 1788554463}
+  - component: {fileID: 1788554469}
   m_Layer: 5
   m_Name: Game Start Canvas
   m_TagString: Untagged
@@ -28166,7 +28183,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788554462}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 340919ac34928a2489038b60a3090922, type: 3}
   m_Name: 
@@ -28277,6 +28294,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.00071004033}
   m_SizeDelta: {x: 4, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1788554469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788554462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e369da19872b0b54ab860cb06c2f783f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStartCanvas: {fileID: 1788554462}
+  leftHand: {fileID: 2087059538}
+  rightHand: {fileID: 270906711}
+  playerMovement: {fileID: 970180250}
+  gameTimer: {fileID: 738824558}
 --- !u!1 &1792553822
 GameObject:
   m_ObjectHideFlags: 0

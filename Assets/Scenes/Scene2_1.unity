@@ -21317,8 +21317,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1788554463}
-        m_TargetAssemblyTypeName: GameStartManager, Assembly-CSharp
+      - m_Target: {fileID: 1788554469}
+        m_TargetAssemblyTypeName: GameStartManager2, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -25891,6 +25891,7 @@ GameObject:
   - component: {fileID: 1788554465}
   - component: {fileID: 1788554464}
   - component: {fileID: 1788554463}
+  - component: {fileID: 1788554469}
   m_Layer: 5
   m_Name: Game Start Canvas
   m_TagString: Untagged
@@ -25905,7 +25906,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788554462}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 340919ac34928a2489038b60a3090922, type: 3}
   m_Name: 
@@ -26016,6 +26017,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.00071004033}
   m_SizeDelta: {x: 4, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1788554469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788554462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e369da19872b0b54ab860cb06c2f783f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStartCanvas: {fileID: 1788554462}
+  leftHand: {fileID: 2087059538}
+  rightHand: {fileID: 270906711}
+  playerMovement: {fileID: 970180250}
+  gameTimer: {fileID: 738824558}
 --- !u!1 &1794283070 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 513b05c1a8dbf6c4f8e19cdfa77a2467,
