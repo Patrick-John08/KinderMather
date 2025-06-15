@@ -1,0 +1,11 @@
+Model Information:
+* title:	Congratulations
+* source:	https://sketchfab.com/3d-models/congratulations-4d0155d4b2a846ed839fb0c8776c5ee2
+* author:	taaaylor4really (https://sketchfab.com/taaaylor)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Congratulations" (https://sketchfab.com/3d-models/congratulations-4d0155d4b2a846ed839fb0c8776c5ee2) by taaaylor4really (https://sketchfab.com/taaaylor) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
