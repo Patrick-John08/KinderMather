@@ -6,7 +6,7 @@ public class ShowTalking : MonoBehaviour
 {
     public GameObject walking, talking;
     public AudioSource talk;
-    public GameObject Menu, congrats;
+    public GameObject Menu, congrats, canvas;
 
     void OnTriggerEnter(Collider other)
     {
@@ -15,6 +15,7 @@ public class ShowTalking : MonoBehaviour
             walking.SetActive(false);
             talking.SetActive(true);
             congrats.SetActive(true);
+            canvas.SetActive(true);
             talk.Play();
 
             // Start coroutine to wait until audio finishes
