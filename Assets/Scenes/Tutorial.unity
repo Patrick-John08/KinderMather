@@ -35977,10 +35977,10 @@ MonoBehaviour:
   controllersChecklist: {fileID: 1723138549131914318}
   ControllerList: {fileID: 337074087}
   GrabList: {fileID: 1040483997}
-  welcomeAudio: {fileID: 806722977}
-  controlAudio: {fileID: 72195149}
-  grabAudio: {fileID: 311168035}
-  doneAudio: {fileID: 1594238509}
+  welcomeAudio: {fileID: 806722975}
+  controlAudio: {fileID: 72195147}
+  grabAudio: {fileID: 311168033}
+  doneAudio: {fileID: 1594238507}
 --- !u!1 &2051453070
 GameObject:
   m_ObjectHideFlags: 0
