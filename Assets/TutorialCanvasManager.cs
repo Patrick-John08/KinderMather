@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 public class TutorialCanvasManager : MonoBehaviour
 {
     public GameObject WelcomeMessage, Controllers, Grab,MainCanvas, Done;
+    public GameObject WelcomeMessageDL, ControllersDL, GrabDL, DoneDL;
     public GameObject controllersChecklist, ControllerList, GrabList;
-    public AudioSource welcomeAudio, controlAudio, grabAudio, doneAudio;
+    public GameObject welcomeAudio, controlAudio, grabAudio, doneAudio;
 
     void Start()
     {
@@ -22,15 +23,18 @@ public class TutorialCanvasManager : MonoBehaviour
     public void WelcomeShow()
     {
         ShowDialogue(WelcomeMessage);
-        welcomeAudio.Play();
+        WelcomeMessageDL.SetActive(true);
+        welcomeAudio.SetActive(true);
         MainCanvas.SetActive(true);
     }
 
     public void ControllersShow()
     {
         ShowDialogue(Controllers);
-        welcomeAudio.Stop();
-        controlAudio.Play();
+        WelcomeMessageDL.SetActive(false);
+        ControllersDL.SetActive(true);
+        welcomeAudio.SetActive(false);
+        controlAudio.SetActive(true);
         MainCanvas.SetActive(true);
         StartCoroutine(ActivateControllersAfterDelay(1f));
     }
@@ -45,8 +49,10 @@ public class TutorialCanvasManager : MonoBehaviour
     public void GrabShow()
     {
         ShowDialogue(Grab);
-        grabAudio.Play();
-        controlAudio.Stop();
+        ControllersDL.SetActive(false);
+        grabAudio.SetActive(true);
+        GrabDL.SetActive(true);
+        controlAudio.SetActive(false);
         MainCanvas.SetActive(true);
     }
 
@@ -60,8 +66,10 @@ public class TutorialCanvasManager : MonoBehaviour
     public void DoneShow()
     {
         ShowDialogue(Done);
-        grabAudio.Stop();
-        doneAudio.Play();
+        GrabDL.SetActive(false);
+        grabAudio.SetActive(false);
+        doneAudio.SetActive(true);
+        DoneDL.SetActive(true);
         MainCanvas.SetActive(true);
         ControllerList.SetActive(false);
     }

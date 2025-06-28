@@ -118406,13 +118406,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome to our game 3! In this fun learning game, a 3D clock will show
-    a random time. Your job is to look at the clock, figure out what time it shows,
-    and then use the number blocks to build the correct answer. Just drag the blocks
-    into the right spots to show the time, like 2:40 or 11:00. The short hand shows
-    the hour, and the long hand shows the minutes. Once you place your answer, the
-    game will tell you if you're right. If not, you can try again. Have fun learning
-    how to read the clock! Goodluck!!
+  m_text: 'Wow! That was amazing! You finished all three games, and I''m so proud
+    of you. You grabbed the fruits, told the time, and solved the puzzles like a
+    real superstar. You followed directions, used your brain, and most of all, you
+    had fun learning. Give yourself a big round of applause. You did such a great
+    job, and I''m super proud to be your teacher. Now, take a deep breath. Put on
+    your biggest smile. And say it with me: I did it! Great job, champion! See you
+    in the next adventure.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
